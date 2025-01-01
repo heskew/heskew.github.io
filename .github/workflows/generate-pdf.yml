@@ -1,0 +1,50 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Create build directory
+        run: |
+          mkdir -p _site/
+          cp *.html _site/
+          cp *.css _site/
+          cp resume.md _site/
+      
+      - name: Generate PDF
+        uses: docker://pandoc/latex:latest
+        with:
+          args: >-
+            --pdf-engine=xelatex
+            --variable=geometry:margin=1in
+            --output=_site/resume.pdf
+            resume.md
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
