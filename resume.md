@@ -3,9 +3,9 @@ Technical Leader | Distributed Systems Architect | Building Technology for Globa
 
 ## Contact Information
 - Location: Greater Seattle Area
-- LinkedIn: linkedin.com/in/heskew
-- GitHub: github.com/heskew
-- Hackster: hackster.io/heskew
+- LinkedIn: [linkedin.com/in/heskew](https://linkedin.com/in/heskew)
+- GitHub: [github.com/heskew](https://github.com/heskew)
+- Hackster: [hackster.io/heskew](https://hackster.io/heskew)
 
 ## Professional Summary
 Technical leader and architect with extensive experience building distributed systems that operate at global scale. Proven track record of transforming complex technical challenges into elegant, secure solutions that empower users and developers alike. 
