@@ -14,26 +14,19 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
-      - name: Create build directory
-        run: |
-          mkdir -p _site/
-          cp *.html _site/
-          cp *.css _site/
-          cp resume.md _site/
-      
       - name: Generate PDF
         uses: docker://pandoc/latex:latest
         with:
           args: >-
             --pdf-engine=xelatex
             --variable=geometry:margin=1in
-            --output=_site/resume.pdf
-            resume.md
+            --output=site/resume.pdf
+            site/resume.md
 
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: site
 
   deploy:
     needs: build
