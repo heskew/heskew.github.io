@@ -5,7 +5,53 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    container:
+      image: pandoc/ubuntu-latex:latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Install fonts
+        run: |
+          apt-get update
+          apt-get install -y \
+            fonts-dejavu-core \
+            fonts-noto
+
+      - name: Create PDF Directory
+        run: mkdir -p dist
+      
+      - name: Generate PDF
+        run: |
+          pandoc \
+            --pdf-engine=xelatex \
+            --variable=geometry:margin=1in \
+            --variable=geometry:top=0.75in \
+            --variable=geometry:bottom=0.75in \
+            --variable=mainfont="Noto Sans" \
+            --variable=sansfont="Noto Sans" \
+            --variable=monofont="DejaVu Sans Mono" \
+            --variable=fontsize=10pt \
+            --variable=urlcolor=blue!70!black \
+            --variable=linkcolor=blue!70!black \
+            --variable=toccolor=gray \
+            --variable=colorlinks=true \
+            --highlight-style=tango \
+            --variable=header-includes="\usepackage{fancyhdr}\pagestyle{fancy}\fancyhead{}\renewcommand{\headrulewidth}{0pt} \renewcommand{\baselinestretch}{1.15} \setlength{\parindent}{0pt} \setlength{\parskip}{6pt} \setlength{\itemsep}{2pt} \setlength{\emergencystretch}{3em} \setlength{\spaceskip}{1.05\fontdimen2\font plus 1\fontdimen3\font minus 1\fontdimen4\font} \makeatletter\renewcommand{\section}{\@startsection{section}{1}{0pt}{\parskip}{0.5\parskip}{\large\bfseries}}\makeatother" \
+            --from=markdown+raw_tex \
+            --output=dist/resume.pdf \
+            src/resume.md
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdf
+          path: dist/resume.pdf
+
+  build-site:
+    needs: generate-pdf
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -28,15 +74,12 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      
-      - name: Generate PDF
-        uses: docker://pandoc/latex:latest
+
+      - name: Download PDF artifact
+        uses: actions/download-artifact@v4
         with:
-          args: >-
-            --pdf-engine=xelatex
-            --variable=geometry:margin=1in
-            --output=dist/resume.pdf
-            dist/resume.md
+          name: pdf
+          path: dist
 
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -45,7 +88,7 @@ jobs:
 
 
   deploy:
-    needs: build
+    needs: build-site
     runs-on: ubuntu-latest
     environment:
       name: github-pages
