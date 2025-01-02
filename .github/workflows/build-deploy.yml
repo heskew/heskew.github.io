@@ -3,11 +3,6 @@ name: Build and Deploy
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'src/**'
-      - '.github/workflows/build-deploy.yml'
-      - '.11tyignore'
-      - 'eleventy.config.js'
 
 jobs:
   build:
