@@ -12,6 +12,7 @@ export default function(eleventyConfig) {
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/icons");
   eleventyConfig.addPassthroughCopy("src/styles");
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
   eleventyConfig.addPassthroughCopy("src/resume.md");
   
   // Watch for changes
