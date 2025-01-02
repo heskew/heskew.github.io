@@ -70,7 +70,7 @@ _Redmond, WA_
 
 ### University of Washington Bothell
 **Web Application Developer** (2000 - 2005)  
-_Botthell, WA_
+_Bothell, WA_
 - Architected and developed web applications using Perl, MySQL, and Yellow Dog Linux
 - Managed web and database server administration for a rack of Mac servers
 - Built and maintained critical university web infrastructure
