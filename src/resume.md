@@ -1,11 +1,9 @@
 # Nathan Heskew
-Technical Leader | Distributed Systems Architect | Building Technology for Global Impact
+Building internet things
 
-## Contact Information
 - Location: [Greater Seattle Area](https://www.google.com/maps/place/Seattle+Metropolitan+Area,+WA/@47.5061384,-123.1988914,538045m/data=!3m2!1e3!4b1!4m6!3m5!1s0x54907b72dfbd79f3:0x35b57dcd99e57e0e!8m2!3d47.6061031!4d-122.3320534!16zL20vMDM3MHZ5)
 - LinkedIn: [linkedin.com/in/heskew](https://linkedin.com/in/heskew)
 - GitHub: [github.com/heskew](https://github.com/heskew)
-- Hackster: [hackster.io/heskew](https://hackster.io/heskew)
 
 ## Professional Summary
 Technical leader and architect with extensive experience building distributed systems that operate at global scale. Proven track record of transforming complex technical challenges into elegant, secure solutions that empower users and developers alike. 

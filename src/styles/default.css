@@ -1,61 +1,204 @@
 :root {
-    --primary-color: #2C3E50;
-    --hover-color: #34495E;
-    --text-color: #24292e;
+    --bg: #ffffff;
+    --text: #2d3748;
+    --text-muted: #64748b;
+    --accent: #3b82f6;
+    --accent-hover: #2563eb;
+    --border: #e2e8f0;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #0f172a;
+        --text: #e2e8f0;
+        --text-muted: #94a3b8;
+        --accent: #60a5fa;
+        --accent-hover: #3b82f6;
+        --border: #1e293b;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--bg);
+    padding: 2rem 1rem;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 42rem;
     margin: 0 auto;
-    padding: 2rem;
 }
 
-#resume-footer {
-    display: block;
-    text-align: center;
-    margin-top: 3rem;
+/* Markdown Specific Styles */
+.content h1 {
+    font-size: 2.25rem;
+    letter-spacing: -0.025em;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
 }
 
-#social-links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin: 1rem 0;
+.content h1 + p {
+    font-size: 1.125rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+    line-height: 1.4;
 }
 
-.social-link {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--text-color);
-    text-decoration: none;
-    padding: 0.5rem;
-    border-radius: 4px;
-    transition: background-color 0.2s;
+.content h2 {
+    font-size: 1.5rem;
+    letter-spacing: -0.025em;
+    color: var(--accent);
+    margin: 2.5rem 0 1rem;
 }
 
-.social-link:hover {
-    background-color: #f0f0f0;
+.content h3 {
+    font-size: 1.25rem;
+    letter-spacing: -0.025em;
+    margin: 1.5rem 0 0.5rem;
 }
 
-.download-button {
+.content p {
+    margin-bottom: 1rem;
+}
+
+.content ul {
+    list-style-type: none;
+    margin-bottom: 1rem;
+    padding-left: 1em;
+}
+
+.content li {
+    position: relative;
+    padding-left: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9375rem;
+}
+
+.content li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+}
+
+/* Icon Links */
+.icon-link {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.8rem 1.6rem;
-    background-color: var(--primary-color);
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.2s;
 }
 
-.download-button:hover {
-    background-color: var(--hover-color);
+.icon-link svg {
+    flex-shrink: 0;
+}
+
+/* Contact Links */
+.content h1:first-of-type ~ ul:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9375rem;
+    gap: 1.25rem;
+    margin: 1rem 0 2rem;
+    padding: 0;
+}
+
+.content h1:first-of-type ~ ul:first-of-type li {
+    padding-left: 0;
+}
+
+.content h1:first-of-type ~ ul:first-of-type li::before {
+    display: none;
+}
+
+/* Hide the label text before links in contact section */
+.content h1:first-of-type ~ ul:first-of-type li {
+    display: inline-flex;
+    font-size: 0;
+}
+
+.content h1:first-of-type ~ ul:first-of-type a {
+    color: var(--text-muted);
+    font-size: 0.9375rem;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+.content h1:first-of-type ~ ul:first-of-type a:hover {
+    color: var(--accent);
+}
+
+/* Experience Items */
+.content h3 + p {
+    color: var(--text-muted);
+    font-size: 0.9375rem;
+    margin: 0.25rem 0 0.75rem;
+}
+
+strong {
+    color: var(--text);
+}
+
+a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+/* Skills Grid */
+.content h2:last-of-type ~ h3 {
+    color: var(--text);
+    font-size: 1.125rem;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 640px) {
+    body {
+        padding: 1rem;
+    }
+
+    .content h2:first-of-type + ul {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    text-align: right;
+    font-size: 0.9375rem;
+}
+
+footer a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+footer a:hover {
+    color: var(--accent);
 }
 
 @media print {
-    .download-button, .social-links {
+    body {
+        padding: 0;
+    }
+    
+    footer {
         display: none;
     }
 }
