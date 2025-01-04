@@ -8,20 +8,29 @@ jobs:
   generate-pdf:
     runs-on: ubuntu-latest
     container:
-      image: pandoc/ubuntu-latex:latest
+      image: pandoc/extra:latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
       
       - name: Install fonts
         run: |
-          apt-get update
-          apt-get install -y \
-            fonts-dejavu-core \
-            fonts-noto
+          apk add --no-cache \
+            ttf-dejavu \
+            font-noto
 
       - name: Create PDF Directory
         run: mkdir -p dist
+
+      # - name: Debug - Check LaTeX conversion
+      #   run: |
+      #     pandoc \
+      #       --from=markdown \
+      #       --to=latex \
+      #       src/resume.md > debug-output.tex
+          
+      #     echo "LaTeX output:"
+      #     cat debug-output.tex
       
       - name: Generate PDF
         run: |
@@ -30,8 +39,8 @@ jobs:
             --variable=geometry:margin=1in \
             --variable=geometry:top=0.75in \
             --variable=geometry:bottom=0.75in \
-            --variable=mainfont="Noto Sans" \
-            --variable=sansfont="Noto Sans" \
+            --variable=mainfont="DejaVu Sans" \
+            --variable=sansfont="DejaVu Sans" \
             --variable=monofont="DejaVu Sans Mono" \
             --variable=fontsize=10pt \
             --variable=urlcolor=blue!70!black \
@@ -39,8 +48,21 @@ jobs:
             --variable=toccolor=gray \
             --variable=colorlinks=true \
             --highlight-style=tango \
-            --variable=header-includes="\usepackage{fancyhdr}\pagestyle{fancy}\fancyhead{}\renewcommand{\headrulewidth}{0pt} \renewcommand{\baselinestretch}{1.15} \setlength{\parindent}{0pt} \setlength{\parskip}{6pt} \setlength{\itemsep}{2pt} \setlength{\emergencystretch}{3em} \setlength{\spaceskip}{1.05\fontdimen2\font plus 1\fontdimen3\font minus 1\fontdimen4\font} \makeatletter\renewcommand{\section}{\@startsection{section}{1}{0pt}{\parskip}{0.5\parskip}{\large\bfseries}}\makeatother" \
-            --from=markdown+raw_tex \
+            --from=markdown+raw_tex+yaml_metadata_block+definition_lists+fancy_lists \
+            --variable=header-includes='\usepackage{enumitem}
+              \usepackage{fancyhdr}
+              \pagestyle{fancy}
+              \fancyhead{}
+              \renewcommand{\headrulewidth}{0pt}
+              \renewcommand{\baselinestretch}{1.15}
+              \setlength{\parindent}{0pt}
+              \setlength{\parskip}{6pt}
+              \setlength{\itemsep}{4pt}
+              \setlist[itemize]{leftmargin=*,nosep,topsep=0pt,parsep=0pt,partopsep=0pt}
+              \setlist[enumerate]{leftmargin=*,nosep,topsep=0pt,parsep=0pt,partopsep=0pt}
+              \makeatletter
+              \renewcommand{\section}{\@startsection{section}{1}{0pt}{\parskip}{0.5\parskip}{\large\bfseries}}
+              \makeatother' \
             --output=dist/resume.pdf \
             src/resume.md
 
