@@ -13,7 +13,7 @@
     "url": "git+https://github.com/heskew/heskew.github.io.git"
   },
   "author": "heskew",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/heskew/heskew.github.io/issues"
   },
