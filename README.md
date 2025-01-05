@@ -1,6 +1,6 @@
 # Personal Website & Resume
 
-> Note: This README was generated through a conversation with [Claude](https://www.anthropic.com/claude) (Anthropic's AI assistant) while discussing ways to document the technical implementation of my resume site.
+> Note: This README was generated through a conversation with [Claude](https://www.anthropic.com/claude) (Anthropic's AI assistant) while discussing ways to document the technical implementation of this resume/playground site. **Human Note:** This will hardly be exactly current until Claude can generate this based on the current repo contents.
 
 This repository contains my professional website and resume, implemented as a modern static site using 11ty (Eleventy) with automated PDF generation. It demonstrates modern static site generation practices with a focus on simplicity and performance.
 

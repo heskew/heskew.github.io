@@ -47,16 +47,26 @@ export default function(eleventyConfig) {
     return marked.parse(markdown);
   });
 
+  // Add markdown filter for normal markdown content
+  eleventyConfig.addFilter("markdown", content => {
+    return marked.parse(content);
+  });
+
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/icons");
+  eleventyConfig.addPassthroughCopy("src/scripts");
   eleventyConfig.addPassthroughCopy("src/styles");
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   eleventyConfig.addPassthroughCopy("src/resume.md");
   
   // Watch for changes
   eleventyConfig.addWatchTarget("src/icons/");
+  eleventyConfig.addWatchTarget("src/scripts/");
   eleventyConfig.addWatchTarget("src/styles/");
   eleventyConfig.addWatchTarget("src/resume.md");
+
+  // Set some ignores
+  eleventyConfig.ignores.add("src/resume.md");
   
   return {
     dir: {
