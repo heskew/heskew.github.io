@@ -60,10 +60,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/resume.md");
   
   // Watch for changes
-  eleventyConfig.addWatchTarget("src/icons/");
-  eleventyConfig.addWatchTarget("src/scripts/");
-  eleventyConfig.addWatchTarget("src/styles/");
-  eleventyConfig.addWatchTarget("src/resume.md");
+  eleventyConfig.addWatchTarget("src/");
 
   // Set some ignores
   eleventyConfig.ignores.add("src/resume.md");
@@ -73,6 +70,7 @@ export default function(eleventyConfig) {
       input: "src",
       output: "dist",
       includes: "_includes"
-    }
+    },
+    pathPrefix: "/" // Ensures correct path handling
   };
 };

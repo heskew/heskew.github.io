@@ -1,0 +1,13 @@
+---
+layout: base.njk
+title: Technical Implementation - Nathan Heskew
+description: A detailed look at how this resume site is built using 11ty, GitHub Actions, and more
+permalink: /readme/
+---
+<div class="content" id="content">
+{% set readme %}{% include "../README.md" %}{% endset %}
+{{ readme | markdown | safe }}
+</div>
+<footer>
+{% include "nav.njk" %}
+</footer>
