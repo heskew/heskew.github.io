@@ -28,11 +28,15 @@ Experienced in scaling teams and systems through multiple growth phases - from e
 
 **Senior Software Engineering Manager** (September 2020 - January 2022)
 
-- Initiated and led development of new rendering layer for Microsoft's developer documentation platform
+- Continued development of new rendering layer for Microsoft's developer documentation platform, docs.microsoft.com (now learn.microsoft.com)
 - Mentored intern who won internal hackathon with server-side rendering proof-of-concept, which later influenced production architecture
 - Established technical standards and review processes that improved system reliability and maintainability
 - Collaborated with product and content teams to define technical strategy for documentation platform evolution
 - Guided team's adoption of automated testing and continuous deployment practices
+
+**Senior Software Engineer** (January 2019 - September 2020)
+
+- Initiated and led development of new rendering layer for Microsoft's developer documentation platform, docs.microsoft.com (now learn.microsoft.com)
 
 ### SkewTech, LLC
 
