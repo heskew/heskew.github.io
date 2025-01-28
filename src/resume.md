@@ -19,7 +19,7 @@ Experienced in scaling teams and systems through multiple growth phases - from e
 
 ### Microsoft
 
-**Senior Software Engineer** (January 2022 - Present)
+**Senior Software Engineer** (January 2022 - January 2025)
 
 - Architected and led development of a new rendering layer powering learn.microsoft.com, enabling seamless content delivery to millions of developers globally
 - Designed distributed build and release pipeline architecture that reduced deployment times while improving reliability
