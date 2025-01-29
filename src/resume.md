@@ -9,9 +9,9 @@ Building internet things
 
 ## Professional Summary
 
-Technical leader and architect with extensive experience building distributed systems that operate at global scale. Proven track record of transforming complex technical challenges into elegant, secure solutions that empower users and developers alike. 
+Technical leader and architect with extensive experience building distributed systems that operate at a global scale. Proven track record of transforming complex technical challenges into elegant, secure solutions that empower users and developers alike. 
 
-Currently leading technical initiatives at Microsoft that make developer education more accessible to millions. Deep expertise in Node.js (since early v0.8.x), distributed architectures, and secure payment systems. Particularly passionate about building technology that creates positive global impact while maintaining high standards for security, performance, and reliability.
+Led technical initiatives at Microsoft that make developer education more accessible to millions. Deep expertise in Node.js (since early v0.8.x), distributed architectures, and secure payment systems. Particularly passionate about building technology that creates positive a global impact while maintaining high standards for security, performance, and reliability.
 
 Experienced in scaling teams and systems through multiple growth phases - from early-stage startups to enterprise platforms. Strong focus on creating resilient architectures that can evolve with changing requirements while maintaining performance at scale.
 
@@ -21,24 +21,24 @@ Experienced in scaling teams and systems through multiple growth phases - from e
 
 **Senior Software Engineer** (January 2022 - January 2025)
 
-- Architected and led development of learn.microsoft.com's new Node.js based rendering layer serving 77M monthly active users and 200M pageviews, enabling seamless content delivery to millions of developers globally. This moves the platform from static HTML generation to SSR allowing for greater flexibility and fine tuning and allows for tighter integration of new pure SSR feature areas like integrated Q&A.
+- Architected and led the development of learn.microsoft.com's new Node.js-based rendering layer serving 77M monthly active users and 200M pageviews, enabling seamless content delivery to millions of developers globally. This moves the platform from static HTML generation to SSR, allowing for greater flexibility, fine-tuning, and tighter integration of new pure SSR feature areas like integrated Q&A.
 - Designed distributed build and release pipeline architecture that reduced deployment times while improving reliability
 - Implemented multi-environment deployment strategy supporting development, staging, and production environments across global regions
 - Built developer tooling and documentation that improved team velocity and reduced onboarding time for new engineers
-- Led architectural improvements to video processing pipeline, reducing transcoding time while maintaining quality
+- Led architectural improvements to the video processing pipeline, reducing transcoding time while maintaining quality
 - Enhanced video delivery system supporting HLS/DASH formats, improving global content delivery performance, and improved test coverage in the transcoder pipeline
 
 **Senior Software Engineering Manager** (September 2020 - January 2022)
 
-- Continued development of new rendering layer for Microsoft's developer documentation platform, docs.microsoft.com (now learn.microsoft.com)
-- Mentored intern who won internal hackathon with server-side rendering proof-of-concept, which later influenced production architecture
+- Continued development of a new rendering layer for Microsoft's developer documentation platform, docs.microsoft.com (now learn.microsoft.com)
+- Mentored intern who won an internal hackathon with server-side rendering proof-of-concept, which later influenced production architecture
 - Established technical standards and review processes that improved system reliability and maintainability
 - Collaborated with product and content teams to define technical strategy for documentation platform evolution
 - Guided team's adoption of automated testing and continuous deployment practices
 
 **Senior Software Engineer** (January 2019 - September 2020)
 
-- Initiated and led development of new rendering layer for Microsoft's developer documentation platform, docs.microsoft.com (now learn.microsoft.com)
+- Initiated and led the development of a new rendering layer for Microsoft's developer documentation platform, docs.microsoft.com (now learn.microsoft.com)
 
 ### SkewTech, LLC
 
