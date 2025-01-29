@@ -21,10 +21,12 @@ Experienced in scaling teams and systems through multiple growth phases - from e
 
 **Senior Software Engineer** (January 2022 - January 2025)
 
-- Architected and led development of a new rendering layer powering learn.microsoft.com, enabling seamless content delivery to millions of developers globally
+- Architected and led development of learn.microsoft.com's new Node.js based rendering layer serving 77M monthly active users and 200M pageviews, enabling seamless content delivery to millions of developers globally. This moves the platform from static HTML generation to SSR allowing for greater flexibility and fine tuning and allows for tighter integration of new pure SSR feature areas like integrated Q&A.
 - Designed distributed build and release pipeline architecture that reduced deployment times while improving reliability
 - Implemented multi-environment deployment strategy supporting development, staging, and production environments across global regions
 - Built developer tooling and documentation that improved team velocity and reduced onboarding time for new engineers
+- Led architectural improvements to video processing pipeline, reducing transcoding time while maintaining quality
+- Enhanced video delivery system supporting HLS/DASH formats, improving global content delivery performance, and improved test coverage in the transcoder pipeline
 
 **Senior Software Engineering Manager** (September 2020 - January 2022)
 
@@ -42,7 +44,12 @@ Experienced in scaling teams and systems through multiple growth phases - from e
 
 **Founder** (October 2015 - September 2023)
 
-Independent technical consultancy focused on distributed systems and web architecture. Led strategic modernization initiatives for select clients, specializing in Node.js ecosystems and high-performance web services. Provided architectural guidance for startups and established companies transitioning to modern cloud-native architectures.
+Independent technical consultancy focused on distributed systems and web architecture.
+
+Led technical modernization for select clients, specializing in:
+- Distributed systems architecture and cloud-native transformations
+- High-scale Node.js implementations
+- Technical strategy and architectural guidance
 
 ### Epoch
 
