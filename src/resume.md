@@ -85,7 +85,7 @@ Built distributed systems for real-time social data aggregation and processing u
 
 2009-2011: Co-founded Orchard CMS project, architecting admin interface and UI composition engine that became foundation for enterprise content management platform.
 
-2008-2009: Contributed to Channel9's user experience before leading development of Oxite, the open-source CMS platform that powered Channel9 and MIX. Success of Oxite led to founding of Orchard project.
+2008-2009: Contributed to Channel9's user experience before leading development of Oxite, the open-source CMS platform that powered Channel9 and MIX. Success of Oxite led to founding of the Orchard project.
 
 2006-2008: Created custom JavaScript framework (Voodoo) for MSN properties, implementing performance optimizations for high-traffic web properties.
 
