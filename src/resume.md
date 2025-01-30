@@ -11,7 +11,7 @@ Building internet things
 
 Technical leader and architect with extensive experience building distributed systems that operate at a global scale. Proven track record of transforming complex technical challenges into elegant, secure solutions that empower users and developers alike. 
 
-Led technical initiatives at Microsoft that make developer education more accessible to millions. Deep expertise in Node.js (since early v0.8.x), distributed architectures, and secure payment systems. Particularly passionate about building technology that creates positive a global impact while maintaining high standards for security, performance, and reliability.
+Led technical initiatives at Microsoft that make developer education more accessible to millions. Deep expertise in Node.js (since early v0.8.x), distributed architectures, and secure payment systems. Particularly passionate about building technology that creates a positive global impact while maintaining high standards for security, performance, and reliability.
 
 Experienced in scaling teams and systems through multiple growth phases - from early-stage startups to enterprise platforms. Strong focus on creating resilient architectures that can evolve with changing requirements while maintaining performance at scale.
 
