@@ -108,6 +108,8 @@ Built distributed systems for real-time social data aggregation and processing u
 
 **Core Expertise**: Distributed Systems Architecture • Node.js (Expert level, early adopter) • API Design & Development • Cloud Infrastructure (AWS, Azure) • Container Orchestration (Docker, Kubernetes) • System Performance Optimization
 
+**Frontend & UI Development**: React/Next.js • Server-Side Rendering • Progressive Web Apps • Modern CSS/SCSS • Web Performance Optimization • Responsive Design • Cross-Browser Compatibility • Web Accessibility (a11y)
+
 **Leadership & Strategy**: Technical Leadership • Architecture Modernization • Developer Platform Design • Team Mentorship • Technical Strategy
 
 **Domain Knowledge**: Payment Systems Security • Developer Education Platforms • Content Management Systems • Real-time Data Processing • Multi-environment Deployment
