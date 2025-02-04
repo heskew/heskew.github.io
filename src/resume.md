@@ -21,7 +21,7 @@ Experienced in scaling teams and systems through multiple growth phases - from e
 
 **Senior Software Engineer** (January 2022 - January 2025)
 
-- Architected and led the development of learn.microsoft.com's new Node.js-based rendering layer serving 77M monthly active users and 200M pageviews, enabling seamless content delivery to millions of developers globally. This moves the platform from static HTML generation to SSR, allowing for greater flexibility, fine-tuning, and tighter integration of new pure SSR feature areas like integrated Q&A.
+- Architected and led the development of [learn.microsoft.com's](https://learn.microsoft.com/) new Node.js-based rendering layer serving 77M monthly active users and 200M pageviews, enabling seamless content delivery to millions of developers globally. This moves the platform from static HTML generation to SSR, allowing for greater flexibility, fine-tuning, and tighter integration of new pure SSR feature areas like integrated Q&A.
 - Designed distributed build and release pipeline architecture that reduced deployment times while improving reliability
 - Implemented multi-environment deployment strategy supporting development, staging, and production environments across global regions
 - Built developer tooling and documentation that improved team velocity and reduced onboarding time for new engineers
@@ -83,9 +83,9 @@ Built distributed systems for real-time social data aggregation and processing u
 
 2011-2012: Led development of Azure developer portal and billing systems frontend, enabling self-service management for cloud service customers.
 
-2009-2011: Co-founded Orchard CMS project, architecting admin interface and UI composition engine that became foundation for enterprise content management platform.
+2009-2011: [Co-founded Orchard CMS project](https://docs.orchardcore.net/projects/O1/en/latest/Documentation/Frequently-asked-questions/#what-about-oxite-arent-they-building-a-cms-application-too-how-does-oxite-relate-to-the-orchard-effort), architecting admin interface and UI composition engine that became foundation for enterprise content management platform.
 
-2008-2009: Contributed to Channel9's user experience before leading development of Oxite, the open-source CMS platform that powered Channel9 and MIX. Success of Oxite led to founding of the Orchard project.
+2008-2009: Contributed to Channel9's user experience before leading development of [Oxite](https://arstechnica.com/information-technology/2008/12/microsoft-releases-open-source-cms-oxite-to-developers/), the open-source CMS platform that powered Channel9 and MIX. Success of Oxite led to founding of the Orchard project.
 
 2006-2008: Created custom JavaScript framework (Voodoo) for MSN properties, implementing performance optimizations for high-traffic web properties.
 
