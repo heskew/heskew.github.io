@@ -60,6 +60,8 @@ jobs:
               \setlength{\itemsep}{4pt}
               \setlist[itemize]{leftmargin=*,nosep,topsep=0pt,parsep=0pt,partopsep=0pt}
               \setlist[enumerate]{leftmargin=*,nosep,topsep=0pt,parsep=0pt,partopsep=0pt}
+              \hyphenpenalty=10000
+              \exhyphenpenalty=10000
               \makeatletter
               \renewcommand{\section}{\@startsection{section}{1}{0pt}{\parskip}{0.5\parskip}{\large\bfseries}}
               \makeatother' \
