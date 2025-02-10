@@ -94,11 +94,7 @@ Built distributed systems for real-time social data aggregation and processing u
 
 2006-2008: Created custom JavaScript framework (Voodoo) for MSN properties, implementing performance optimizations for high-traffic web properties.
 
-### Volt
-
-**Web Application Developer at Microsoft** (May 2005 - February 2006)
-
-- Contract position at Microsoft within MSN
+2006-2008: Created custom JavaScript framework (Voodoo) for MSN properties, implementing performance optimizations for high-traffic web properties.
 
 ### University of Washington Bothell
 
