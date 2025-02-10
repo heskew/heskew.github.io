@@ -55,7 +55,12 @@ Led technical modernization for select clients, specializing in:
 
 **Senior Software Engineer** (April 2016 - December 2018)
 
-Architected and built high-throughput payment processing services using Node.js microservices architecture. Led design and implementation of secure payment workflows supporting multiple payment methods and compliance requirements. Implemented distributed system patterns using AWS, Docker, and Kubernetes for scalable, resilient service delivery.
+Architected and built high-throughput payment processing services using Node.js microservices architecture. Led design and implementation of PCI-DSS compliant payment workflows with end-to-end encryption and secure token handling. Implemented distributed system patterns using AWS, Docker, and Kubernetes for scalable, resilient service delivery while maintaining strict security controls.
+
+Key achievements:
+- Designed secure microservices architecture
+- Implemented comprehensive security controls including encryption at rest/transit, secure key management, and audit logging
+- Established automated security testing pipeline integrated with CI/CD workflow
 
 Key technologies: Node.js, Java, MySQL, Redis, Docker, Kubernetes, AWS
 
@@ -110,8 +115,10 @@ Built distributed systems for real-time social data aggregation and processing u
 
 **Frontend & UI Development**: React/Next.js • Server-Side Rendering • Progressive Web Apps • Modern CSS/SCSS • Web Performance Optimization • Responsive Design • Cross-Browser Compatibility • Web Accessibility (a11y)
 
+**Security Expertise**: Application Security Architecture • Payment Systems Security (PCI-DSS) • Secure SDLC • OWASP Top 10 Mitigation • OWASP ASVS Implementation • Infrastructure Security • Threat Modeling • API Security • Cloud Security (AWS, Azure) • Container Security
+
 **Leadership & Strategy**: Technical Leadership • Architecture Modernization • Developer Platform Design • Team Mentorship • Technical Strategy
 
 **Domain Knowledge**: Payment Systems Security • Developer Education Platforms • Content Management Systems • Real-time Data Processing • Multi-environment Deployment
 
-**Technologies**: JavaScript/TypeScript • Java • Redis • MongoDB • MySQL • Linux/Ubuntu/Alpine
+**Technologies**: JavaScript/TypeScript • Java • Redis • MongoDB • MySQL • Linux/Ubuntu/Kali/Alpine
