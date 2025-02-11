@@ -62,8 +62,6 @@ Key achievements:
 - Implemented comprehensive security controls including encryption at rest/transit, secure key management, and audit logging
 - Established automated security testing pipeline integrated with CI/CD workflow
 
-Key technologies: Node.js, Java, MySQL, Redis, Docker, Kubernetes, AWS
-
 ### NearForm
 
 **Software Architect** (November 2015 - March 2016)
