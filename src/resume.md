@@ -94,8 +94,6 @@ Built distributed systems for real-time social data aggregation and processing u
 
 2006-2008: Created custom JavaScript framework (Voodoo) for MSN properties, implementing performance optimizations for high-traffic web properties.
 
-2006-2008: Created custom JavaScript framework (Voodoo) for MSN properties, implementing performance optimizations for high-traffic web properties.
-
 ### University of Washington Bothell
 
 **Web Application Developer** (2000 - 2005)
