@@ -1,6 +1,6 @@
 # Nathan Heskew
 
-Building internet things
+Building Internet Things
 
 - Email: [nathan@heskew.dev](mailto:nathan@heskew.dev)
 - Location: [Greater Seattle Area](https://www.google.com/maps/place/Seattle+Metropolitan+Area,+WA/@47.5061384,-123.1988914,538045m/data=!3m2!1e3!4b1!4m6!3m5!1s0x54907b72dfbd79f3:0x35b57dcd99e57e0e!8m2!3d47.6061031!4d-122.3320534!16zL20vMDM3MHZ5)
@@ -19,7 +19,7 @@ Experienced in scaling teams and systems through multiple growth phases - from e
 
 ### Microsoft
 
-**Senior Software Engineer** (January 2022 - January 2025)
+**Senior Software Engineer** (2022 - 2025)
 
 - Architected and led the development of [learn.microsoft.com's](https://learn.microsoft.com/) new Node.js-based rendering layer serving 77M monthly active users and 200M pageviews, enabling seamless content delivery to millions of developers globally. This moves the platform from static HTML generation to SSR, allowing for greater flexibility, fine-tuning, and tighter integration of new pure SSR feature areas like integrated Q&A.
 - Designed distributed build and release pipeline architecture that reduced deployment times while improving reliability
@@ -28,7 +28,7 @@ Experienced in scaling teams and systems through multiple growth phases - from e
 - Led architectural improvements to the video processing pipeline, reducing transcoding time while maintaining quality
 - Enhanced video delivery system supporting HLS/DASH formats, improving global content delivery performance, and improved test coverage in the transcoder pipeline
 
-**Senior Software Engineering Manager** (September 2020 - January 2022)
+**Senior Software Engineering Manager** (2020 - 2022)
 
 - Continued development of a new rendering layer for Microsoft's developer documentation platform, docs.microsoft.com (now learn.microsoft.com)
 - Mentored intern who won an internal hackathon with server-side rendering proof-of-concept, which later influenced production architecture
@@ -36,53 +36,51 @@ Experienced in scaling teams and systems through multiple growth phases - from e
 - Collaborated with product and content teams to define technical strategy for documentation platform evolution
 - Guided team's adoption of automated testing and continuous deployment practices
 
-**Senior Software Engineer** (January 2019 - September 2020)
+**Senior Software Engineer** (2019 - 2020)
 
 - Initiated and led the development of a new rendering layer for Microsoft's developer documentation platform, docs.microsoft.com (now learn.microsoft.com)
 
 ### SkewTech, LLC
 
-**Founder** (October 2015 - September 2023)
+**Founder** (2015 - 2023)
 
-Independent technical consultancy focused on distributed systems and web architecture.
-
-Led technical modernization for select clients, specializing in:
-- Distributed systems architecture and cloud-native transformations
-- High-scale Node.js implementations
-- Technical strategy and architectural guidance
+Independent consultancy specializing in distributed systems architecture and cloud-native transformations.
 
 ### Epoch
 
-**Senior Software Engineer** (April 2016 - December 2018)
+**Senior Software Engineer** (2016 - 2018)
 
-Architected and built high-throughput payment processing services using Node.js microservices architecture. Led design and implementation of PCI-DSS compliant payment workflows with end-to-end encryption and secure token handling. Implemented distributed system patterns using AWS, Docker, and Kubernetes for scalable, resilient service delivery while maintaining strict security controls.
-
-Key achievements:
-- Designed secure microservices architecture
-- Implemented comprehensive security controls including encryption at rest/transit, secure key management, and audit logging
-- Established automated security testing pipeline integrated with CI/CD workflow
+- Architected high-throughput payment processing services using Node.js microservices
+- Implemented PCI-DSS compliant workflows with end-to-end encryption
+- Built scalable infrastructure using AWS, Docker, and Kubernetes
 
 ### NearForm
 
-**Software Architect** (November 2015 - March 2016)
+**Software Architect** (2015 - 2016)
 
-Led architectural modernization initiative to replace monolithic Java system with distributed Node.js services. Designed migration strategy and new architecture that enabled incremental adoption, resulting in successful client engagement and subsequent full-time opportunity. Demonstrated expertise in both legacy system evolution and modern architectural patterns.
+- Led strategy to modernize monolithic Java system into Node.js microservices
+- Designed incremental migration path that enabled gradual adoption
+- Established patterns for legacy system evolution and integration
 
 ### Joy the App
 
-**Senior Software Engineer** (February 2015 - October 2015)
+**Senior Software Engineer** (2015 - 2015)
 
-Delivered full-stack solutions across multiple platforms using Node.js, Firebase, and Azure. Built scalable backend services and contributed to Android mobile development. Implemented real-time data synchronization between web and mobile clients while maintaining high performance and reliability.
+- Built a real-time sync system between web and mobile clients using Node.js
+- Developed scalable backend services with Firebase and Azure
+- Contributed to Android app development and infrastructure
 
 ### Tagboard
 
-**Senior Software Engineer** (February 2013 - January 2015)
+**Senior Software Engineer** (2013 - 2015)
 
-Built distributed systems for real-time social data aggregation and processing using Node.js (early v0.8.x) and MongoDB. Architected scalable services handling high-volume data streams from multiple social platforms. Implemented caching strategies with Redis to optimize performance and reduce API costs. Early adopter of Hapi.js framework for building reliable web services.
+- Built a real-time social data aggregation system using Node.js and MongoDB
+- Implemented Redis caching strategies, optimizing performance and reducing API costs
+- Early adoption of Hapi.js for reliable web services
 
 ### Microsoft
 
-**Senior Software Development Engineer** (February 2006 - September 2012)
+**Senior Software Development Engineer** (2006 - 2012)
 
 2011-2012: Led development of Azure developer portal and billing systems frontend, enabling self-service management for cloud service customers.
 
@@ -103,14 +101,12 @@ Built distributed systems for real-time social data aggregation and processing u
 
 ## Technical Skills
 
-**Core Expertise**: Distributed Systems Architecture • Node.js (Expert level, early adopter) • API Design & Development • Cloud Infrastructure (AWS, Azure) • Container Orchestration (Docker, Kubernetes) • System Performance Optimization
+**Core Expertise**: Distributed Systems Architecture, Web UX/Performance, API Design, Real-time Data Processing, Cloud Infrastructure (AWS, Azure), Container Orchestration, UX Engineering
 
-**Frontend & UI Development**: React/Next.js • Server-Side Rendering • Progressive Web Apps • Modern CSS/SCSS • Web Performance Optimization • Responsive Design • Cross-Browser Compatibility • Web Accessibility (a11y)
+**Server Technologies**: Node.js, C#/.NET, Java, Go, Redis, MongoDB, MySQL, Linux/Windows Server
 
-**Security Expertise**: Application Security Architecture • Payment Systems Security (PCI-DSS) • Secure SDLC • OWASP Top 10 Mitigation • OWASP ASVS Implementation • Infrastructure Security • Threat Modeling • API Security • Cloud Security (AWS, Azure) • Container Security
+**Cloud & Security**: AWS Services, Azure Platform, Payment Systems Security, OWASP ASVS, PCI-DSS, Zero Trust Architecture, Multi-environment Deployment, Threat Modeling
 
-**Leadership & Strategy**: Technical Leadership • Architecture Modernization • Developer Platform Design • Team Mentorship • Technical Strategy
+**Frontend**: React/Next.js, Server-Side Rendering, Progressive Web Apps, Web Performance, Web Standards, WCAG Accessibility, Responsive Design
 
-**Domain Knowledge**: Payment Systems Security • Developer Education Platforms • Content Management Systems • Real-time Data Processing • Multi-environment Deployment
-
-**Technologies**: JavaScript/TypeScript • Java • Redis • MongoDB • MySQL • Linux/Ubuntu/Kali/Alpine
+**Leadership**: Technical Strategy, Architecture Modernization, Team Mentorship, Platform Design
