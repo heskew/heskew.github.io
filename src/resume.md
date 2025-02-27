@@ -108,6 +108,6 @@ Independent consultancy specializing in distributed systems architecture and clo
 
 **Cloud & Security**: AWS Services, Azure Platform, Payment Systems Security, OWASP ASVS, PCI-DSS, Zero Trust Architecture, Multi-environment Deployment, Threat Modeling
 
-**Frontend & UI Development**: React/Next.js • WebSockets • Server-Side Rendering • Progressive Web Apps • Modern CSS/SCSS • Web Performance Optimization • Responsive Design • Cross-Browser Compatibility • Web Accessibility (a11y)
+**Frontend & UI Development**: React/Next.js, WebSockets, Server-Side Rendering, Progressive Web Apps, Modern CSS/SCSS, Web Performance Optimization, Responsive Design, Cross-Browser Compatibility, Web Accessibility (a11y)
 
 **Leadership**: Technical Strategy, Architecture Modernization, Team Mentorship, Platform Design
