@@ -9,11 +9,11 @@ Building Internet Things
 
 ## Professional Summary
 
-Technical leader and architect with extensive experience building distributed systems that operate at a global scale. Proven track record of transforming complex technical challenges into elegant, secure solutions that empower users and developers alike. 
+Technical leader and architect with extensive experience building distributed systems and web experiences that operate at a global scale. Proven track record of transforming complex technical challenges into elegant, secure, and accessible solutions that empower users and developers alike.
 
-Led technical initiatives at Microsoft that make developer education more accessible to millions. Deep expertise in Node.js (since early v0.8.x), distributed architectures, and secure payment systems. Particularly passionate about building technology that creates a positive global impact while maintaining high standards for security, performance, and reliability.
+Led technical initiatives at Microsoft that make developer education more accessible to millions through modern web technologies, including Node.js, React, and real-time communication systems. Deep expertise in distributed architectures, frontend/backend integration, and secure payment systems. Particularly passionate about building technology that creates a positive global impact while maintaining high standards for security, accessibility, and performance.
 
-Experienced in scaling teams and systems through multiple growth phases - from early-stage startups to enterprise platforms. Strong focus on creating resilient architectures that can evolve with changing requirements while maintaining performance at scale.
+Experienced in scaling teams and systems through multiple growth phases - from building products from 0 to 1 in startups to evolving enterprise platforms. Strong focus on creating resilient architectures using modern technologies that can adapt to changing requirements while maintaining performance at scale.
 
 ## Professional Experience
 
@@ -66,7 +66,7 @@ Independent consultancy specializing in distributed systems architecture and clo
 
 **Senior Software Engineer** (2015 - 2015)
 
-- Built a real-time sync system between web and mobile clients using Node.js
+- Built real-time synchronization between clients using WebSockets, ensuring seamless collaborative experiences across web and mobile platforms
 - Developed scalable backend services with Firebase and Azure
 - Contributed to Android app development and infrastructure
 
@@ -76,6 +76,7 @@ Independent consultancy specializing in distributed systems architecture and clo
 
 - Built a real-time social data aggregation system using Node.js and MongoDB
 - Implemented Redis caching strategies, optimizing performance and reducing API costs
+- Implemented WebSocket connections for real-time social data updates, reducing latency and improving the user experience for live event displays.
 - Early adoption of Hapi.js for reliable web services
 
 ### Microsoft
@@ -107,6 +108,6 @@ Independent consultancy specializing in distributed systems architecture and clo
 
 **Cloud & Security**: AWS Services, Azure Platform, Payment Systems Security, OWASP ASVS, PCI-DSS, Zero Trust Architecture, Multi-environment Deployment, Threat Modeling
 
-**Frontend**: React/Next.js, Server-Side Rendering, Progressive Web Apps, Web Performance, Web Standards, WCAG Accessibility, Responsive Design
+**Frontend & UI Development**: React/Next.js • WebSockets • Server-Side Rendering • Progressive Web Apps • Modern CSS/SCSS • Web Performance Optimization • Responsive Design • Cross-Browser Compatibility • Web Accessibility (a11y)
 
 **Leadership**: Technical Strategy, Architecture Modernization, Team Mentorship, Platform Design
