@@ -104,7 +104,7 @@ Independent consultancy specializing in distributed systems architecture and clo
 
 **Core Expertise**: Distributed Systems Architecture, Web UX/Performance, API Design, Real-time Data Processing, Cloud Infrastructure (AWS, Azure), Container Orchestration, UX Engineering
 
-**Server Technologies**: Node.js, C#/.NET, Java, Go, Redis, MongoDB, MySQL, Linux/Windows Server
+**Server Technologies**: Node.js/TypeScript, C#/.NET, Java, Go, Redis, MongoDB, MySQL, Linux/Windows Server
 
 **Cloud & Security**: AWS Services, Azure Platform, Payment Systems Security, OWASP ASVS, PCI-DSS, Zero Trust Architecture, Multi-environment Deployment, Threat Modeling
 
