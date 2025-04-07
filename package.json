@@ -20,6 +20,6 @@
   "homepage": "https://github.com/heskew/heskew.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "marked": "^15.0.6"
+    "marked": "^15.0.8"
   }
 }
