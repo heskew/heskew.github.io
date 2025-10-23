@@ -17,6 +17,12 @@ Experienced in scaling teams and systems through multiple growth phases - from b
 
 ## Professional Experience
 
+### Harper
+
+**Node.js Software Engineer** (2025 - Present)
+
+- Working on [Harper](https://harper.fast/) core (now [open source](https://github.com/HarperFast/harper)) and [documentation infrastructure](https://docs.harperdb.io/docs)
+
 ### Microsoft
 
 **Senior Software Engineer** (2022 - 2025)
