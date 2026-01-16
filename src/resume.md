@@ -114,10 +114,3 @@ Independent consultancy specializing in distributed systems architecture and clo
 **Frontend & UI**: React/Next.js, WebSockets, Server-Side Rendering, Progressive Web Apps, Web Performance Optimization, Accessibility
 
 **Leadership**: Technical Strategy, Architecture Modernization, Team Mentorship, Platform Design
-
----
-
-* [Home](/)
-* [README](/readme/)
-
-[Download PDF version](/resume.pdf)
