@@ -140,16 +140,16 @@ Real-time supply chain command center demo built entirely on Harper's collapsed 
 
 - GitHub: [github.com/heskew/flowsense-demo](https://github.com/heskew/flowsense-demo)
 
-### TPS: Team Provisioning System (2026)
-Agent OS for building teams of AI agents that coordinate, remember, and ship autonomously. Components: **Flair** (v0.44.x, federated identity/memory/soul substrate spanning 11 agent harnesses, 9 published npm packages plus a Python plugin; Ed25519 cryptographic auth, BM25+vector hybrid retrieval via in-process embeddings, REM memory curation, A2A federation, fleet ops tooling), **CLI** (agent lifecycle, Docker offices with 4-layer isolation, Maildir-based async messaging with pub/sub, multi-provider LLM support), and **Agent Runtime** (`@tpsdev-ai/agent`, headless execution engine with tool-use loop, daemon mode, CLI runtime providers for Claude Code/Codex/Gemini CLI via OAuth, per-platform binaries). 600+ tests across the stack. TypeScript/Node.js.
+### TPS (2026)
+An office for agent teams.
+
+Flair — memory that follows the work
+CLI — hire, mail, dispatch
+Bob — onboard and shell for an agent
+Milton — embeddings, in-process
 
 - Site: [tps.dev](https://tps.dev)
-- GitHub: [github.com/tpsdev-ai/cli](https://github.com/tpsdev-ai/cli) · [github.com/tpsdev-ai/flair](https://github.com/tpsdev-ai/flair)
-
-### harper-fabric-embeddings
-Minimal llama.cpp embedding engine for Harper Fabric, direct N-API integration at ~19 MB installed (vs 250+ MB for full node-llama-cpp), GGUF models, `models.embed()` and `@embed` table directives, query/document prompt templating. Published to npm (v0.5.x); serves as the embedding engine inside Flair, a two-project production dependency chain I own end to end.
-
-- GitHub: [github.com/heskew/harper-fabric-embeddings](https://github.com/heskew/harper-fabric-embeddings)
+- GitHub: [github.com/tpsdev-ai](https://github.com/tpsdev-ai)
 
 ### what's up Dug?
 Interactive terminal UI for exploring Harper databases with vi-style navigation, fuzzy-search column selection, foreign key traversal, query building with filters/sorting, and adaptive pagination. Published to npm. TypeScript/Bun.
